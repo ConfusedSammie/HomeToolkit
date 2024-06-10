@@ -1,0 +1,1 @@
+<a href='addPlant.php'>Add New Plant</a>

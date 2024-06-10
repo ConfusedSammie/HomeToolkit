@@ -1,0 +1,25 @@
+[08-Jun-2024 13:22:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home3/nowporta/samj.site/functions/insert_plant.php:37
+Stack trace:
+#0 /home3/nowporta/samj.site/functions/insert_plant.php(37): mysqli->prepare('INSERT INTO pla...')
+#1 {main}
+  thrown in /home3/nowporta/samj.site/functions/insert_plant.php on line 37
+[08-Jun-2024 13:23:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home3/nowporta/samj.site/functions/insert_plant.php:37
+Stack trace:
+#0 /home3/nowporta/samj.site/functions/insert_plant.php(37): mysqli->prepare('INSERT INTO pla...')
+#1 {main}
+  thrown in /home3/nowporta/samj.site/functions/insert_plant.php on line 37
+[08-Jun-2024 13:25:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home3/nowporta/samj.site/functions/insert_plant.php:38
+Stack trace:
+#0 /home3/nowporta/samj.site/functions/insert_plant.php(38): mysqli->prepare('INSERT INTO pla...')
+#1 {main}
+  thrown in /home3/nowporta/samj.site/functions/insert_plant.php on line 38
+[08-Jun-2024 13:26:20 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home3/nowporta/samj.site/functions/insert_plant.php:39
+Stack trace:
+#0 /home3/nowporta/samj.site/functions/insert_plant.php(39): mysqli->prepare('INSERT INTO pla...')
+#1 {main}
+  thrown in /home3/nowporta/samj.site/functions/insert_plant.php on line 39
+[08-Jun-2024 13:26:53 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'image_path' in 'field list' in /home3/nowporta/samj.site/functions/insert_plant.php:39
+Stack trace:
+#0 /home3/nowporta/samj.site/functions/insert_plant.php(39): mysqli->prepare('INSERT INTO pla...')
+#1 {main}
+  thrown in /home3/nowporta/samj.site/functions/insert_plant.php on line 39
