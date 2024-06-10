@@ -11,7 +11,6 @@ include('functions/auth.php');
   <title>Homepage</title>
 </head>
 <body class="bg-light">
-
   <div class="container my-5">
     <div class="row">
       <div class="col-md-6">
@@ -21,7 +20,7 @@ include('functions/auth.php');
           </div>
           <div class="card-body">
             <h5 class="card-title">Plants Toolkit</h5>
-            <p class="card-text">Explore a variety of tools and resources to help you take care of your plants.</p>
+            <p class="card-text">Explore a variety of tools and resources to help you take care of your plants.test</p>
             <a href="plants.php" class="btn btn-primary">Go to Plants Toolkit</a>
           </div>
         </div>
@@ -40,5 +39,9 @@ include('functions/auth.php');
       </div>
     </div>
   </div>
+  <?php
+  include('includes/footer.php');
+  ?>
+
 </body>
 </html>
