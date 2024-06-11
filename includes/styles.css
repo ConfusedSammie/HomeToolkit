@@ -118,3 +118,42 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-top:30px;
 }
+
+
+/** Cats Homepage **/
+
+.cat_weight_chart{
+    width:500px;
+    margin-top:20px;
+    box-shadow:3px 3px 6px rgba(0,0,0,0.3);
+    padding:10px;
+}
+
+.cat-button.selected {
+    background-color: #007bff;
+    color: white;
+}
+.catPageContainer{
+    width:90%;
+    margin:auto;
+}
+
+.cat_weight_widgets{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+.cat_weight_table{
+    width:400px;
+    margin-top:20px;
+    box-shadow:3px 3px 6px rgba(0,0,0,0.3);
+    padding:10px;
+    text-align:center;
+    margin-left:20px;
+}
+
+.cat-btn.selected {
+    background-color: #007bff;
+    color: white;
+}
