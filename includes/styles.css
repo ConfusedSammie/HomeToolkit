@@ -157,3 +157,19 @@
     background-color: #007bff;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .cat_weight_table{
+        margin-left:0px;
+    }
+
+    .login-container{
+            flex-direction: column;
+    }
+    .login-container .left-pane{
+        padding-top:250px;
+    }
+    .login-container .left-pane p{
+        text-align: center;
+    }
+}
