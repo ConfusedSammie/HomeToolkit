@@ -1,5 +1,5 @@
 <?php
-include('functions/auth.php');
+//include('functions/auth.php');
 ?>
 
 <!DOCTYPE html>
@@ -11,18 +11,18 @@ include('functions/auth.php');
   <title>Homepage</title>
 </head>
 <body class="bg-light">
-  <div class="catPageContainer">
+  <div class="container catPageContainer">
     <button class='btn btn-primary mt-3' data-toggle="modal" data-target="#recordWeightModal">Record Weight</button>
-    <div class='cat_weight_widgets'>
-      <div class='cat_weight_chart'>
+    <div class='row cat_weight_widgets'>
+      <div class='col-12 col-md-6 cat_weight_chart'>
         <h2 class="text-center">Cat Weights Over Time</h2>
         <canvas id="catWeightsChart" width="400" height="200"></canvas>
 
         <script src='js/line_chart_cats_weight.js'> </script>
       </div>
-      <div class='cat_weight_table'>
+      <div class='col-12 col-md-6 cat_weight_table'>
         <h3 class="text-center">Cat Data</h3>
-        <div class="btn-group mb-3" role="group" aria-label="Cat names">
+        <div class="btn-group mb-3 d-flex justify-content-center" role="group" aria-label="Cat names">
           <button type="button" class="btn btn-secondary cat-btn" onclick="showCatData(1, this)">Gigi</button>
           <button type="button" class="btn btn-secondary cat-btn" onclick="showCatData(2, this)">Miso</button>
           <button type="button" class="btn btn-secondary cat-btn" onclick="showCatData(3, this)">Momo</button>
@@ -39,13 +39,8 @@ include('functions/auth.php');
         </table>
       </div>
     </div>
-    
   </div>
-  <?php
-  include('includes/footer.php');
-  ?>
-
-
+  <?php include('includes/footer.php'); ?>
 
   <!-- Modal -->
   <div class="modal fade" id="recordWeightModal" tabindex="-1" role="dialog" aria-labelledby="recordWeightModalLabel" aria-hidden="true">
@@ -61,7 +56,7 @@ include('functions/auth.php');
           <form id="recordWeightForm">
             <div class="form-group">
               <label>Select Cat</label>
-              <div>
+              <div class="d-flex justify-content-between">
                 <button type="button" class="btn btn-secondary cat-button" onclick="selectCat(1, this)">Gigi</button>
                 <button type="button" class="btn btn-secondary cat-button" onclick="selectCat(2, this)">Miso</button>
                 <button type="button" class="btn btn-secondary cat-button" onclick="selectCat(3, this)">Momo</button>
@@ -79,6 +74,7 @@ include('functions/auth.php');
       </div>
     </div>
   </div>
+</body>
   <script>
 
     function showCatData(catId, button) {
@@ -155,5 +151,4 @@ include('functions/auth.php');
     });
   </script>
 
-</body>
 </html>
