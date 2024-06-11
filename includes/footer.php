@@ -3,12 +3,10 @@
 let lastModificationTime = null;
 
 function checkForChanges() {
-    console.log('Checking for changes...');
     $.ajax({
         url: '../functions/checkForChanges.php', 
         method: 'GET',
         success: function(data) {
-            console.log('Current modification time from server:', data);
             const currentModificationTime = parseInt(data, 10);
             if (lastModificationTime === null) {
                 lastModificationTime = currentModificationTime;
