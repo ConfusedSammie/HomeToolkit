@@ -53,6 +53,20 @@ include('functions/auth.php');
           </a>
         </div>
       </div>
+
+      <div class="col-md-6">
+        <div class="card mb-4 shadow-sm homepageCard">
+          <a href="reminders.php">
+            <div class='imageContainer'>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/40/Alarm_Clock_Animation_High_Res.png" class="card-img-top" alt="Cats">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Reminders</h5>
+              <p class="card-text">Set up reminders for anything and be notified when their time comes.</p>
+            </div>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
   <?php
