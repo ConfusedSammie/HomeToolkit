@@ -6,6 +6,10 @@
 **HomeToolkit** is a simple yet powerful application designed to assist you with various household tasks. The primary objective of this application is to provide a centralized tool to manage and track activities related to your home, plants, and pets. The application is designed to be mounted on an iPad for easy access and interaction.
 
 ## Features
+### Cat Weight Tracking
+- Log your cats' weight using a simple form.
+- Line chart showcasing your cats' weight over time.
+- Table view to show your cats' weight log.
 
 ## Getting Started
 
